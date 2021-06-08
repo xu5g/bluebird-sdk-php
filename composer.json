@@ -2,6 +2,7 @@
   "name": "xu5g/bluebird-sdk-php",
   "type": "library",
   "description": "TSP连接SDK",
+  "homepage": "https://github.com/xu5g/bluebird-sdk-php",
   "license": "MIT",
   "authors": [
     {
