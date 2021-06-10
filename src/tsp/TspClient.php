@@ -41,6 +41,18 @@ class TspClient
     }
 
     /**
+     * 批量获取设备信息
+     * @param $params
+     * @return mixed
+     * @throws \Exception
+     */
+    public function getBatchDevices($params = [])
+    {
+        $request = new Request();
+        return $request->get($this->transId, $this->config['token'], $this->config['gateway'].$request::TSPDevicesBatchGetPath, $params);
+    }
+
+    /**
      * 获取设备详情
      * @param $params
      * @return mixed

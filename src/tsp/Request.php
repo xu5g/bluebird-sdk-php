@@ -44,6 +44,7 @@ class Request
     const TSPDeviceUpdatePath       = "/tsp/device/update";        // 更新设备信息
     const TSPDeviceCreatePath       = "/tsp/device/create";        // 创建设备信息
     const TSPDevicesGetPath         = "/tsp/devices/get";          // 获取设备列表
+    const TSPDevicesBatchGetPath    = "/tsp/devices/batch/get";    // 批量获取设备信息
     const TSPDeviceLocatePath       = "/tsp/device/locate";        // 下发定位指令到终端
     const TSPDeviceOnlinePath       = "/tsp/device/online";        // 获取设备是否在线
     const TSPDeviceMessagePath      = "/tsp/device/message";       // 向设备透传报文
