@@ -317,6 +317,18 @@ class TspClient
     }
 
     /**
+     * 下发批量设置定位模式指令
+     * @param $params
+     * @return mixed
+     * @throws \Exception
+     */
+    public function sendBatchLocateMode($params = [])
+    {
+        $request = new Request();
+        return $request->put($this->transId, $this->config['token'], $this->config['gateway'].$request::TSPDeviceBatchLocateModePath, $params);
+    }
+
+    /**
      * 获取最新体温数据
      * @param $params
      * @return mixed
