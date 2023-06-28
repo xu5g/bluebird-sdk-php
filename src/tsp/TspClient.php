@@ -711,4 +711,16 @@ class TspClient
         $request = new Request();
         return $request->get($this->transId, $this->config['token'], $this->config['gateway'].$request::TSPGuardLogsGetPath, $params);
     }
+
+    /**
+     * 获取萤石accesstoken
+     * @param $params
+     * @return mixed
+     * @throws \Exception
+     */
+    public function TSPYmonitorAccesstokenPath($params = [])
+    {
+        $request = new Request();
+        return $request->get($this->transId, $this->config['token'], $this->config['gateway'].$request::TSPYmonitorAccesstokenPath, $params);
+    }
 }

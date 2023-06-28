@@ -92,6 +92,9 @@ class Request
     const TSPCoreLogsGetPath = "/tsp/corelogs/get";  // 获取core日志列表
     const TSPGuardLogsGetPath = "/tsp/guardlogs/get"; // 获取guard日志列表
 
+    /** 视频监控管理 **/
+    const TSPYmonitorAccesstokenPath = "/tsp/ysmonitor/accesstoken";   // 获取萤石accesstoken
+
 
     /**
      * 封装的GET方法
