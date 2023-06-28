@@ -93,7 +93,7 @@ class Request
     const TSPGuardLogsGetPath = "/tsp/guardlogs/get"; // 获取guard日志列表
 
     /** 视频监控管理 **/
-    const TSPYmonitorAccesstokenPath = "/tsp/ysmonitor/accesstoken";   // 获取萤石accesstoken
+    const TSPYsmonitorAccesstokenPath = "/tsp/ysmonitor/accesstoken";   // 获取萤石accesstoken
 
 
     /**

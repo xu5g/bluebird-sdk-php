@@ -718,9 +718,9 @@ class TspClient
      * @return mixed
      * @throws \Exception
      */
-    public function TSPYmonitorAccesstokenPath($params = [])
+    public function TSPYsmonitorAccesstokenPath($params = [])
     {
         $request = new Request();
-        return $request->get($this->transId, $this->config['token'], $this->config['gateway'].$request::TSPYmonitorAccesstokenPath, $params);
+        return $request->get($this->transId, $this->config['token'], $this->config['gateway'].$request::TSPYsmonitorAccesstokenPath, $params);
     }
 }
