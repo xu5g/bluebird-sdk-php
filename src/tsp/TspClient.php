@@ -713,7 +713,7 @@ class TspClient
     }
 
     /**
-     * 获取萤石accesstoken
+     * 获取萤石的accesstoken
      * @param $params
      * @return mixed
      * @throws \Exception
